@@ -5,7 +5,6 @@ Camera2 api实现点击拍照，长按录制。
 
 # 一、先看一下效果图：
 ![capture.gif](http://upload-images.jianshu.io/upload_images/3318087-d1fe85e84137e988.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 ![record.gif](http://upload-images.jianshu.io/upload_images/3318087-a9b84904f9e2e81f.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 二、3步集成到自己的项目中：
