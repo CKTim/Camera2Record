@@ -11,6 +11,7 @@ Camera2 api实现点击拍照，长按录制。
    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 ```
 **2.在project的build.gradle和app的build.gradle下分别申明如下代码：**
+
 project的build.gradle：
 ```
 allprojects {
@@ -26,6 +27,7 @@ dependencies {
 }
 ```
 **3.打开Camera2：**
+
 每个人对拍完照或者录完像后的处理可能都不一样，所以这里我采用跳转activity的方式，将拍照录像后的地址传递给了下一个activity，当然这个activty是由你自己去编写的，你可以对获取到的图片视频地址进行你需要的编辑：
 getIntent().getStringExtra(Camera2Config.INTENT_PATH_SAVE_PIC);//获取图片地址
 getIntent().getStringExtra(Camera2Config.INTENT_PATH_SAVE_VIDEO);//获取视频地址
